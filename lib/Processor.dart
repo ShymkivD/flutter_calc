@@ -97,7 +97,6 @@ abstract class Processor {
 
   static void _removeChar() {
     _result = _output.substring(0, _output.length - 1);
-//    refresh();
   }
 
   static void _calculate() {

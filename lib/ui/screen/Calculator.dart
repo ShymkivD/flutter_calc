@@ -71,13 +71,15 @@ class _CalculatorState extends State<Calculator> {
           _visible
               ? Row(
                   children: <Widget>[
-                    VariableKey(title: 'V1', value: '2'),
+                    Expanded(
+                      child: VariableKey(title: 'V1', value: '2'),
+                    ),
                     VariableKey(title: 'V2', value: '23.5'),
                     VariableKey(title: 'V3', value: '-'),
-                    VariableKey(title: 'V4', value: '15')
+                    VariableKey(title: 'V4', value: '15'),
                   ],
                 )
-              : Container(),
+              : SizedBox(),
           KeyPad(),
         ],
       ),

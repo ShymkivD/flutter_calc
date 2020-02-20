@@ -11,10 +11,9 @@ class VariableKey extends StatefulWidget {
 class _VariableKeyState extends State<VariableKey> {
   @override
   Widget build(BuildContext context) {
-    double size = MediaQuery.of(context).size.width / 4;
     return Container(
-        width: size,
-        height: size / 1.3,
+        width: 90,
+        height: 65,
         color: Color.fromARGB(41, 0, 91, 228),
         child: MaterialButton(
             child: Column(
