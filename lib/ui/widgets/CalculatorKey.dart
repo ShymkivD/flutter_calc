@@ -13,8 +13,6 @@ class CalculatorKey extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-//        width: 90,
-//        height: 65,
           color: color,
           child: MaterialButton(
             child: symbol == 'arrow'

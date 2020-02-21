@@ -12,8 +12,6 @@ class _VariableKeyState extends State<VariableKey> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: 90,
-        height: 65,
         color: Color.fromARGB(41, 0, 91, 228),
         child: MaterialButton(
             child: Column(

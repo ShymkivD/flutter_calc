@@ -13,50 +13,36 @@ class KeyPad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(children: [
-      Row(
-        children: <Widget>[
-          CalculatorKey(symbol: 'C', color: colors["whiteLight"]),
-          CalculatorKey(symbol: '÷', color: colors["whiteLight"]),
-          CalculatorKey(symbol: 'x', color: colors["whiteLight"]),
-          CalculatorKey(symbol: 'arrow', color: colors["brownLight"]),
-        ],
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-      ),
-      Row(
-        children: <Widget>[
-          CalculatorKey(symbol: '7', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '8', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '9', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '-', color: colors["brownDark"])
-        ],
-      ),
-      Row(
-        children: <Widget>[
-          CalculatorKey(symbol: '4', color: colors["whiteLight"]),
-          CalculatorKey(symbol: '5', color: colors["whiteLight"]),
-          CalculatorKey(symbol: '6', color: colors["whiteLight"]),
-          CalculatorKey(symbol: '+', color: colors["brownLight"]),
-        ],
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-      ),
-      Row(
-        children: <Widget>[
-          CalculatorKey(symbol: '1', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '2', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '3', color: colors["whiteDark"]),
-          CalculatorKey(symbol: '( )', color: colors["brownDark"]),
-        ],
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-      ),
-      Row(
-        children: <Widget>[
-          CalculatorKey(symbol: '0', color: colors["whiteLight"]),
-          CalculatorKey(symbol: ".", color: colors["whiteLight"]),
-          CalculatorKey(symbol: '+/-', color: colors["whiteLight"]),
-          CalculatorKey(symbol: '=', color: colors["brownDarker"]),
-        ],
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-      )
+      Row(children: <Widget>[
+        CalculatorKey(symbol: 'C', color: colors["whiteLight"]),
+        CalculatorKey(symbol: '÷', color: colors["whiteLight"]),
+        CalculatorKey(symbol: 'x', color: colors["whiteLight"]),
+        CalculatorKey(symbol: 'arrow', color: colors["brownLight"]),
+      ]),
+      Row(children: <Widget>[
+        CalculatorKey(symbol: '7', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '8', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '9', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '-', color: colors["brownDark"]),
+      ]),
+      Row(children: <Widget>[
+        CalculatorKey(symbol: '4', color: colors["whiteLight"]),
+        CalculatorKey(symbol: '5', color: colors["whiteLight"]),
+        CalculatorKey(symbol: '6', color: colors["whiteLight"]),
+        CalculatorKey(symbol: '+', color: colors["brownLight"]),
+      ]),
+      Row(children: <Widget>[
+        CalculatorKey(symbol: '1', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '2', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '3', color: colors["whiteDark"]),
+        CalculatorKey(symbol: '( )', color: colors["brownDark"]),
+      ]),
+      Row(children: <Widget>[
+        CalculatorKey(symbol: '0', color: colors["whiteLight"]),
+        CalculatorKey(symbol: ".", color: colors["whiteLight"]),
+        CalculatorKey(symbol: '+/-', color: colors["whiteLight"]),
+        CalculatorKey(symbol: '=', color: colors["brownDarker"]),
+      ])
     ]);
   }
 }
