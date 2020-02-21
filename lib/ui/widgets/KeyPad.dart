@@ -29,7 +29,6 @@ class KeyPad extends StatelessWidget {
           CalculatorKey(symbol: '9', color: colors["whiteDark"]),
           CalculatorKey(symbol: '-', color: colors["brownDark"])
         ],
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
       ),
       Row(
         children: <Widget>[
